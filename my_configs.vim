@@ -7,7 +7,8 @@ inoremap  <C-e> <End>
 inoremap  <C-f> <Right>
 inoremap  <C-b> <Left>
 "inoremap ,, struct<space>object*
-nnoremap ,, :e ~/.vim_runtime/my_configs.vim<CR>
+"nnoremap ,, :e ~/.vim_runtime/my_configs.vim<CR>
+nnoremap <leader>q :cclose
 set nu
 set nopaste
 let g:user_emmet_install_global = 0
